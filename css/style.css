@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    background-color:black;
+}
+.inner_text{
+    border:10px solid gray;
+    margin:10px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    color: blue;
+}
+    
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    width: 300px;
+    height:250px;
+
+}
+.container img:hover{
+    transition:1s;
+    transform: rotate(360deg);
+}
